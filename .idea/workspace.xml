@@ -29,6 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -50,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603196912063</updated>
       <workItem from="1603196913288" duration="511000" />
-      <workItem from="1603264364369" duration="7147000" />
+      <workItem from="1603264364369" duration="7353000" />
+      <workItem from="1603714516740" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary=" - 1장 예시프로그램 작성">
       <created>1603284956914</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603375667557</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" - 함수 추출 및 변수 인라인(2)">
+      <created>1603376050006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603376050006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,32 +100,81 @@
     <MESSAGE value=" - statement 함수에서 공연료 계산로직을 외부함수로 추출 &gt; amountFor" />
     <MESSAGE value=" - 일부 변수명 변경 및 변수 제거 후 함수화" />
     <MESSAGE value=" - 함수 추출 및 변수 인라인" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - 함수 추출 및 변수 인라인" />
+    <MESSAGE value=" - 함수 추출 및 변수 인라인(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - 함수 추출 및 변수 인라인(2)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="202" y="23" key="CommitChangelistDialog2" timestamp="1603375667312">
+    <state x="202" y="23" key="CommitChangelistDialog2" timestamp="1603376049782">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="202" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603375667312" />
-    <state width="1259" height="84" key="GridCell.Tab.0.bottom" timestamp="1603375443449">
+    <state x="202" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603376049782" />
+    <state width="1259" height="82" key="GridCell.Tab.0.bottom" timestamp="1603715987820">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="84" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603375443449" />
-    <state width="1259" height="84" key="GridCell.Tab.0.center" timestamp="1603375443448">
+    <state width="1259" height="82" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603715987820" />
+    <state width="1259" height="82" key="GridCell.Tab.0.center" timestamp="1603715987819">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="84" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603375443448" />
-    <state width="1259" height="84" key="GridCell.Tab.0.left" timestamp="1603375443448">
+    <state width="1259" height="82" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603715987819" />
+    <state width="1259" height="82" key="GridCell.Tab.0.left" timestamp="1603715987819">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="84" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603375443448" />
-    <state width="1259" height="84" key="GridCell.Tab.0.right" timestamp="1603375443449">
+    <state width="1259" height="82" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603715987819" />
+    <state width="1259" height="82" key="GridCell.Tab.0.right" timestamp="1603715987820">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="84" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603375443449" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603286076265">
+    <state width="1259" height="82" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603715987820" />
+    <state width="1259" height="226" key="GridCell.Tab.1.bottom" timestamp="1603715140172">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1603286076265" />
+    <state width="1259" height="226" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603715140172" />
+    <state width="1259" height="226" key="GridCell.Tab.1.center" timestamp="1603715140170">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1603715140170" />
+    <state width="1259" height="226" key="GridCell.Tab.1.left" timestamp="1603715140169">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1603715140169" />
+    <state width="1259" height="226" key="GridCell.Tab.1.right" timestamp="1603715140171">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1603715140171" />
+    <state width="1259" height="226" key="GridCell.Tab.2.bottom" timestamp="1603715140174">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.2.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603715140174" />
+    <state width="1259" height="226" key="GridCell.Tab.2.center" timestamp="1603715140173">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.2.center/0.23.1280.728@0.23.1280.728" timestamp="1603715140173" />
+    <state width="1259" height="226" key="GridCell.Tab.2.left" timestamp="1603715140173">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.2.left/0.23.1280.728@0.23.1280.728" timestamp="1603715140173" />
+    <state width="1259" height="226" key="GridCell.Tab.2.right" timestamp="1603715140174">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.2.right/0.23.1280.728@0.23.1280.728" timestamp="1603715140174" />
+    <state width="1259" height="226" key="GridCell.Tab.3.bottom" timestamp="1603715140178">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.3.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603715140178" />
+    <state width="1259" height="226" key="GridCell.Tab.3.center" timestamp="1603715140176">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.3.center/0.23.1280.728@0.23.1280.728" timestamp="1603715140176" />
+    <state width="1259" height="226" key="GridCell.Tab.3.left" timestamp="1603715140175">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.3.left/0.23.1280.728@0.23.1280.728" timestamp="1603715140175" />
+    <state width="1259" height="226" key="GridCell.Tab.3.right" timestamp="1603715140176">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="226" key="GridCell.Tab.3.right/0.23.1280.728@0.23.1280.728" timestamp="1603715140176" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603376058122">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1603376058122" />
   </component>
 </project>
