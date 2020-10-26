@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d098c842-d33e-4d65-851b-c2321ae13f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/JS-Refactoring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS-Refactoring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/example_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,19 +32,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.example_1.js">
+    <configuration name="createStatementData.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/example_1/createStatementData.js" working-dir="$PROJECT_DIR$/example_1">
+      <method v="2" />
+    </configuration>
     <configuration name="example_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/example_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="statement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/example_1/statement.js" working-dir="$PROJECT_DIR$/example_1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.example_1.js" />
+        <item itemvalue="Node.js.createStatementData.js" />
+        <item itemvalue="Node.js.statement.js" />
       </list>
     </recent_temporary>
   </component>
@@ -52,7 +67,7 @@
       <updated>1603196912063</updated>
       <workItem from="1603196913288" duration="511000" />
       <workItem from="1603264364369" duration="7353000" />
-      <workItem from="1603714516740" duration="4193000" />
+      <workItem from="1603714516740" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary=" - 1장 예시프로그램 작성">
       <created>1603284956914</created>
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603718989074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" - totalAmount 함수 로직을 reduce 파이프라인으로 변경">
+      <created>1603719415117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603719415117</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,29 +155,34 @@
     <MESSAGE value="- 함수 추출 및 중첩함수 제거 (2)" />
     <MESSAGE value=" - volumeCreditFor 함수를 statement 함수 내부로 이동&#10; - statementData 내 performance에 volumeCredit요소 생성&#10; - renderPlainText 내 volumeCreditFor 함수를 statementData로 교체" />
     <MESSAGE value=" - totalAmount 함수 statement 함수 안으로 이동&#10; - totalVolumeCredits 함수 statement 함수 안으로 이동&#10; - statementData에 totalAmount, totalVolumeCredits 요소 생성&#10; - renderPlainText 내 totalAmount, totalVolumeCredits 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - totalAmount 함수 statement 함수 안으로 이동&#10; - totalVolumeCredits 함수 statement 함수 안으로 이동&#10; - statementData에 totalAmount, totalVolumeCredits 요소 생성&#10; - renderPlainText 내 totalAmount, totalVolumeCredits 변경" />
+    <MESSAGE value=" - totalAmount 함수 로직을 reduce 파이프라인으로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - totalAmount 함수 로직을 reduce 파이프라인으로 변경" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="293" y="103" width="876" height="648" key="CommitChangelistDialog2" timestamp="1603718988864">
+    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603719977513">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="293" y="103" width="876" height="648" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603718988864" />
-    <state width="1259" height="66" key="GridCell.Tab.0.bottom" timestamp="1603719102735">
+    <state x="104" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.728@0.23.1280.728" timestamp="1603719977513" />
+    <state x="353" y="48" width="876" height="648" key="CommitChangelistDialog2" timestamp="1603719414882">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="66" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603719102735" />
-    <state width="1259" height="66" key="GridCell.Tab.0.center" timestamp="1603719102734">
+    <state x="353" y="48" width="876" height="648" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603719414882" />
+    <state width="1259" height="181" key="GridCell.Tab.0.bottom" timestamp="1603721002955">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="66" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603719102734" />
-    <state width="1259" height="66" key="GridCell.Tab.0.left" timestamp="1603719102733">
+    <state width="1259" height="181" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603721002955" />
+    <state width="1259" height="181" key="GridCell.Tab.0.center" timestamp="1603721002953">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="66" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603719102733" />
-    <state width="1259" height="66" key="GridCell.Tab.0.right" timestamp="1603719102734">
+    <state width="1259" height="181" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603721002953" />
+    <state width="1259" height="181" key="GridCell.Tab.0.left" timestamp="1603721002953">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="66" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603719102734" />
+    <state width="1259" height="181" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603721002953" />
+    <state width="1259" height="181" key="GridCell.Tab.0.right" timestamp="1603721002954">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1259" height="181" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603721002954" />
     <state width="1259" height="226" key="GridCell.Tab.1.bottom" timestamp="1603715140172">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
