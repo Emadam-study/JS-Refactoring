@@ -52,7 +52,7 @@
       <updated>1603196912063</updated>
       <workItem from="1603196913288" duration="511000" />
       <workItem from="1603264364369" duration="7353000" />
-      <workItem from="1603714516740" duration="2019000" />
+      <workItem from="1603714516740" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary=" - 1장 예시프로그램 작성">
       <created>1603284956914</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603376050006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- 함수 추출 및 중첩함수 제거 (1)">
+      <created>1603716644970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603716644970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,29 +108,30 @@
     <MESSAGE value=" - 일부 변수명 변경 및 변수 제거 후 함수화" />
     <MESSAGE value=" - 함수 추출 및 변수 인라인" />
     <MESSAGE value=" - 함수 추출 및 변수 인라인(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - 함수 추출 및 변수 인라인(2)" />
+    <MESSAGE value="- 함수 추출 및 중첩함수 제거 (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 함수 추출 및 중첩함수 제거 (1)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="202" y="23" key="CommitChangelistDialog2" timestamp="1603376049782">
+    <state x="202" y="23" key="CommitChangelistDialog2" timestamp="1603716644623">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="202" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603376049782" />
-    <state width="1259" height="82" key="GridCell.Tab.0.bottom" timestamp="1603715987820">
+    <state x="202" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1603716644623" />
+    <state width="1259" height="82" key="GridCell.Tab.0.bottom" timestamp="1603717070931">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="82" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603715987820" />
-    <state width="1259" height="82" key="GridCell.Tab.0.center" timestamp="1603715987819">
+    <state width="1259" height="82" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1603717070931" />
+    <state width="1259" height="82" key="GridCell.Tab.0.center" timestamp="1603717070931">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="82" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603715987819" />
-    <state width="1259" height="82" key="GridCell.Tab.0.left" timestamp="1603715987819">
+    <state width="1259" height="82" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1603717070931" />
+    <state width="1259" height="82" key="GridCell.Tab.0.left" timestamp="1603717070930">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="82" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603715987819" />
-    <state width="1259" height="82" key="GridCell.Tab.0.right" timestamp="1603715987820">
+    <state width="1259" height="82" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1603717070930" />
+    <state width="1259" height="82" key="GridCell.Tab.0.right" timestamp="1603717070931">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1259" height="82" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603715987820" />
+    <state width="1259" height="82" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1603717070931" />
     <state width="1259" height="226" key="GridCell.Tab.1.bottom" timestamp="1603715140172">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
